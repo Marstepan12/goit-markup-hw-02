@@ -1,0 +1,210 @@
+:root{
+    --body-txt: #434455;
+    --helper-txt: #8E8F99;
+    --accent-cl: #E7E9FC;
+    --focused-link: #4D5AE5;
+    --pressed-btn: #404BBF;
+    --liht-bgr:#F4F4FD;
+    --overlay-cl: #2E2F42;
+    --hero-bgr: #2E2F42;
+    --bgr-cl: #fff;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color:var(--hero-bgr);
+    background-color: var(--bgr-cl);
+}
+
+/*-------HEADER--------------*/
+.logo{
+    list-style: none;
+    text-decoration: none;
+    color:var(--focused-link)
+}
+
+.logo-part{
+    color:var(--hero-bgr)
+}
+
+.main-nav{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.main-nav-site:hover, .main-nave-site:focus{
+    color:var(--focused-link);
+    cursor: pointer;
+}
+
+.main-nav-cnt{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.66;
+    letter-spacing: 0.02em;
+}
+
+.main-nav-cnt:hover, .main-nav-nt:focus{
+    color: var(--focused-link);
+    cursor: pointer;
+}
+/*-----------HEADER----------*/
+
+
+/*-----------FOOTER--------------*/
+.footer{
+    background-color: var(--hero-bgr);
+}
+
+.logo-part2 {
+    color: var(--liht-bgr);
+}
+
+.text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.66;
+    letter-spacing: 0.02em;
+    color: var(--accent-cl);
+}
+/*-----------FOOTER--------------*/
+
+/*=============PORTFOLIO SITE==============*/
+.hide{
+    opacity:0;
+}
+/*------------FILTER-------------*/
+.btn-filter{
+    background-color: var(--accent-cl);
+    color: var(--focused-link);
+}
+
+.btn-filter:hover, .btn-filter:focus{
+    background-color: var(--pressed-btn);
+    color:var(--bgr-cl);
+    cursor: pointer;
+}
+/*------------/FILTER-------------*/
+
+/*------------PORTFOLIO----------*/
+.img-port{
+    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(4074365.jpg);
+}
+
+.name{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 20px;
+line-height: 0.83;
+letter-spacing: 0.02em;
+color: var(--overlay-cl);
+}
+
+.name-filter{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 0.66;
+letter-spacing: 0.02em;
+color: var(--body-txt);
+}
+/*------------/PORTFOLIO----------*/
+
+/*=============/PORTFOLIO SITE==============*/
+
+
+/*==============STUDIO SITE=================*/
+
+/*-------------HERO SECTION--------*/
+.hero{
+    background-color: var(--overlay-cl);
+}
+
+.header1{
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 56px;
+line-height: 0.93;
+text-align: center;
+letter-spacing: 0.02em;
+color:var(--bgr-cl);
+}
+
+.hero-btn{
+    color:var(--bgr-cl);
+    background-color:var(--focused-link);
+}
+
+.hero-btn:hover, .hero-btn:focus{
+    background-color: var(--pressed-btn);
+    cursor:pointer;
+}
+/*-------------/HERO SECTION--------*/
+
+/*-------------SECTION 1-----------*/
+.header-advantage{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.83;
+    letter-spacing: 0.02em;
+    color: var(--overlay-cl);
+}
+
+.desc-advantage{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.66;
+    letter-spacing: 0.02em;
+    color: var(--body-txt);
+}
+/*-------------/SECTION 1-----------*/
+
+/*-------------SECTION 2-----------*/
+.header2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.9;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--overlay-cl);
+}
+/*-------------/SECTION 2-----------*/
+
+/*-------------SECTION 3-----------*/
+.section3{
+    background-color: var(--liht-bgr);
+}
+
+.team-card{
+    background-color: var(--bgr-cl);
+}
+
+.name-team{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.83;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:var(--overlay-cl); 
+}
+
+.position{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.66;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:var(--body-txt);
+}
+/*-------------/SECTION 3-----------*/
+/*==============/STUDIO SITE=================*/
